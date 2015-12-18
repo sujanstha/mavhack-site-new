@@ -181,7 +181,13 @@
  }
 
  #thanks{
-    background-color: #f7f7f7;
+    background-color: #000;
+    color: #fff !important;
+ }
+
+ #organizer {
+    background-color: #000;
+    color: #fff !important;
  }
 
  .sponsor {
