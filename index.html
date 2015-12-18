@@ -93,7 +93,7 @@
     </nav>
 
     <!-- Jumbotron -->
-    <header id="home" class="photo summer" data-stellar-background-ratio="0.5" style="overflow:hidden;">
+    <header id="home" class="photo summer" data-stellar-background-ratio="0.5" style="overflow:hidden;background:transparent;">
         <div class="header-content" style="padding-top:80px;">
             <div class="header-content-inner wow flipInX" data-wow-delay=".2s">
                 <img src="img/logo-large.png" class="main-logo">
@@ -106,7 +106,7 @@
         </div>
     </header>
 
-    <section style="background:transparent;">
+    <section style="position:relative;background-color:#fff;">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
@@ -126,7 +126,7 @@
     </section>
 
     <!-- FAQs/About -->
-    <section class="bg-primary" id="about" style="position:relative;">
+    <section class="bg-primary" id="about" style="position:relative;background:transparent;">
         <div class="container">
             <div class="row" id="star">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -211,7 +211,7 @@
     </section>
 
     <!-- Sponsors -->
-    <section id="thanks">
+    <section id="thanks" style="background:transparent;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -229,7 +229,7 @@
         </div>
     </section>
 
-    <section id="organizer">
+    <section id="organizer" style="background:transparent;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -245,7 +245,7 @@
     </section>
 
     <!-- Contact Us -->
-    <section id="contact">
+    <section id="contact" style="background-color:#fff;position:relative;">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -315,7 +315,7 @@ if( !isMobile.any() ){
     }
 });
 
-$('header').starfield({
+$('body').starfield({
   starDensity: 2.0,
   mouseScale: 0.5,
   seedMovement: true
